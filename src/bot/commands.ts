@@ -98,9 +98,9 @@ commands.push({
 }
 );
 
-const clientId = "940822569890758657";
+const clientId = "123455";
 
-const rest = new REST({version: "9"}).setToken("OTQwODIyNTY5ODkwNzU4NjU3.YgM_TA.T27qsUoQJQKl_9N5PuTSWwNxbXk");
+const rest = new REST({version: "9"}).setToken(process.env.DISCORD_TOKEN || "");
 
 (async () => {
 	try {
