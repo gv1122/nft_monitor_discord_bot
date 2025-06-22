@@ -1,0 +1,25 @@
+{
+  "name": "kosherMonitors",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "@notionhq/client": "^1.0.4",
+    "axios": "^0.26.1",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.6.0",
+    "got-cjs": "^12.0.1",
+    "isomorphic-unfetch": "^3.1.0",
+    "nice-grpc": "^1.2.0",
+    "nice-grpc-client-middleware-retry": "^1.1.0",
+    "ts-node": "^10.7.0",
+    "twit": "^2.2.11"
+  }
+}
